@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #1e1e1e; /* Slightly lighter dark background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff; /* White text for the header */
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #333; /* Darker border */
+}
+
+th {
+    background-color: #007bff; /* Blue background for header */
+    color: white; /* White text for header */
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+tbody tr {
+    transition: background-color 0.3s;
+}
+
+tbody tr:hover {
+    background-color: #333; /* Darker gray on hover */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #1e1e1e; /* Dark background for even rows */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #252525; /* Slightly lighter dark background for odd rows */
+}
+
+td {
+    color: #e0e0e0; /* Light text color for table data */
+}
