@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Database</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#"><img src="https://seeklogo.com/images/J/jp-logo-D7B9A52B83-seeklogo.com.png" alt="JianPub Logo" class="logo-image"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Trending</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="carousel">
+            <div class="carousel-item active">
+                <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/m8rWq3j73ZGhDuSCZWMMoE9ePH1.jpg" alt="The Watchmen">
+            </div>
+            <div class="carousel-item">
+                <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/g6tIKGc3f1H5QMz1dcgCwADKpZ7.jpg" alt="His Dark Materials">
+            </div>
+            <div class="carousel-item">
+                <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jyhxT10e2z9IDsKoIQDKhyxSQJt.jpg" alt="Carnival Row">
+            </div>
+            <div class="carousel-item">
+                <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/omgCpyBV5sUT8AkeIcEwdPPgKZC.jpg" alt="Good Omens">
+            </div>
+            <div class="carousel-item">
+                <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4OnnU4j2tQEOnsPnRZswW91v9vr.jpg" alt="Forever">
+            </div>
+            <div class="carousel-item">
+                <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xHgs3UJx5nKi7deizomDrumPxrw.jpg" alt="Deadman Wonderland">
+            </div>
+            <div class="carousel-item">
+                <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/A8O3GlJESEjfRnV72Ju50AjxjB.jpg" alt="Brynhildr in the Darkness">
+            </div>
+        </div>
+    </section>
+
+    <section class="movie-grid">
+        <h2>Popular Movies</h2>
+        <div class="movie-wrapper">
+            <div class="grid">
+                <!-- Movie 1 -->
+                <div class="movie-card" data-index="0">
+                    <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg" alt="Movie 1">
+                    <h3>Arcane</h3>
+                    <div class="movie-details">
+                        <p><strong>Year:</strong> 2021</p>
+                        <p><strong>Director:</strong> Fortiche Production</p>
+                        <p><strong>Genre:</strong> Animation, Action, Adventure</p>
+                        <p><strong>Summary:</strong> Arcane is an animated series based on the video game League of Legends, exploring the rivalry between two cities, Piltover and Zaun, and the origins of its iconic champions.</p>
+                    </div>
+                </div>
+                <div class="movie-card" data-index="1">
+                    <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6Qwwam0TQEMQmFMagjtLmcQHJYs.jpg" alt="Movie 2">
+                    <h3>Dragon's Blood</h3>
+                    <div class="movie-details">
+                        <p><strong>Year:</strong> 2021</p>
+                        <p><strong>Director:</strong> Studio Mir</p>
+                        <p><strong>Genre:</strong> Animation, Action, Fantasy</p>
+                        <p><strong>Summary:</strong> Dragon's Blood follows a dragon knight, Davion, as he embarks on a quest to rid the world of dragons, only to discover a deeper conspiracy.</p>
+                    </div>
+                </div>
+                <div class="movie-card" data-index="2">
+                    <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9t3DYdGxK3i4WRzKvIZwJd4kBnr.jpg" alt="Movie 3">
+                    <h3>Delicious in Dungeon</h3>
+                    <div class="movie-details">
+                        <p><strong>Year:</strong> 2023</p>
+                        <p><strong>Director:</strong> Yoshinobu Tokumoto</p>
+                        <p><strong>Genre:</strong> Animation, Adventure, Fantasy</p>
+                        <p><strong>Summary:</strong> In this series, adventurers journey through dungeons while cooking and eating monsters to survive, turning the gruesome into gourmet meals.</p>
+                    </div>
+                </div>
+                <div class="movie-card" data-index="3">
+                    <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/d7PIRa6ez7ZEl9D4JUrnSsmcnVD.jpg" alt="Movie 4">
+                    <h3>Dragon Prince</h3>
+                    <div class="movie-details">
+                        <p><strong>Year:</strong> 2018</p>
+                        <p><strong>Director:</strong> Aaron Ehasz, Justin Richmond</p>
+                        <p><strong>Genre:</strong> Animation, Action, Adventure</p>
+                        <p><strong>Summary:</strong> Dragon Prince is an animated series that follows the journey of two princes, their allies, and a dragon egg, aiming to unite their warring lands.</p>
+                    </div>
+                </div>
+                <div class="movie-card" data-index="4">
+                    <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mIvbfZFLJGwNvJKJcnYIppSbWdI.jpg" alt="Movie 5">
+                    <h3>Tomb Raider: The Legend of Lara Croft</h3>
+                    <div class="movie-details">
+                        <p><strong>Year:</strong> 2007</p>
+                        <p><strong>Director:</strong> Daniel Chuba</p>
+                        <p><strong>Genre:</strong> Animation, Action, Adventure</p>
+                        <p><strong>Summary:</strong> Lara Croft embarks on an adventure in this animated film, facing deadly traps and powerful enemies while seeking the legendary Scion.</p>
+                    </div>
+                </div>
+                <div class="movie-card" data-index="5">
+                    <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/cZ0d3rtvXPVvuiX22sP79K3Hmjz.jpg" alt="Movie 6">
+                    <h3>The Witcher</h3>
+                    <div class="movie-details">
+                        <p><strong>Year:</strong> 2019</p>
+                        <p><strong>Director:</strong> Alik Sakharov</p>
+                        <p><strong>Genre:</strong> Action, Adventure, Drama</p>
+                        <p><strong>Summary:</strong> The Witcher is a series following Geralt of Rivia, a monster hunter who faces political intrigue, magical creatures, and moral dilemmas in a fantasy world.</p>
+                    </div>
+                </div>
+                <div class="movie-card" data-index="6">
+                    <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xHgs3UJx5nKi7deizomDrumPxrw.jpg" alt="Movie 7">
+                    <h3>Deadman Wonderland</h3>
+                    <div class="movie-details">
+                        <p><strong>Year:</strong> 2011</p>
+                        <p><strong>Director:</strong> Koichi Ohata</p>
+                        <p><strong>Genre:</strong> Animation, Action, Thriller</p>
+                        <p><strong>Summary:</strong> Ganta Igarashi is falsely accused of a crime he didn’t commit and sent to a brutal prison where inmates are forced to participate in deadly games for survival.</p>
+                    </div>
+                </div>
+                <div class="movie-card" data-index="7">
+                    <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/A8O3GlJESEjfRnV72Ju50AjxjB.jpg" alt="Movie 8">
+                    <h3>Brynhildr in the Darkness</h3>
+                    <div class="movie-details">
+                        <p><strong>Year:</strong> 2014</p>
+                        <p><strong>Director:</strong> Kenichi Kasai</p>
+                        <p><strong>Genre:</strong> Action, Drama, Fantasy</p>
+                        <p><strong>Summary:</strong> Ryouta Murakami, a student who lost his friend years ago, meets a mysterious girl who might hold the secret to his lost memories.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+    <footer>
+        <p>&copy; 2025 MovieDB. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

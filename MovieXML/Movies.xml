@@ -1,0 +1,111 @@
+<movies>
+    <popularMovies>
+        <movie>
+            <title>Arcane</title>
+            <year>2021</year>
+            <genre>Animation, Action, Adventure</genre>
+            <director>Fortiche Production</director>
+            <summary>Arcane is an animated series based on the video game League of Legends, exploring the rivalry between two cities, Piltover and Zaun, and the origins of its iconic champions.</summary>
+            <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg</poster>
+        </movie>
+        <movie>
+            <title>Dragon's Blood</title>
+            <year>2021</year>
+            <genre>Animation, Action, Fantasy</genre>
+            <director>Studio Mir</director>
+            <summary>Dragon's Blood follows a dragon knight, Davion, as he embarks on a quest to rid the world of dragons, only to discover a deeper conspiracy.</summary>
+            <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/6Qwwam0TQEMQmFMagjtLmcQHJYs.jpg</poster>
+        </movie>
+        <movie>
+            <title>Delicious in Dungeon</title>
+            <year>2023</year>
+            <genre>Animation, Adventure, Fantasy</genre>
+            <director>Yoshinobu Tokumoto</director>
+            <summary>In this series, adventurers journey through dungeons while cooking and eating monsters to survive, turning the gruesome into gourmet meals.</summary>
+            <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/9t3DYdGxK3i4WRzKvIZwJd4kBnr.jpg</poster>
+        </movie>
+        <movie>
+            <title>Dragon Prince</title>
+            <year>2018</year>
+            <genre>Animation, Action, Adventure</genre>
+            <director>Aaron Ehasz, Justin Richmond</director>
+            <summary>Dragon Prince is an animated series that follows the journey of two princes, their allies, and a dragon egg, aiming to unite their warring lands.</summary>
+            <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/d7PIRa6ez7ZEl9D4JUrnSsmcnVD.jpg</poster>
+        </movie>
+        <movie>
+            <title>Tomb Raider: The Legend of Lara Croft</title>
+            <year>2007</year>
+            <genre>Animation, Action, Adventure</genre>
+            <director>Daniel Chuba</director>
+            <summary>Lara Croft embarks on an adventure in this animated film, facing deadly traps and powerful enemies while seeking the legendary Scion.</summary>
+            <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/mIvbfZFLJGwNvJKJcnYIppSbWdI.jpg</poster>
+        </movie>
+        <movie>
+            <title>The Witcher</title>
+            <year>2019</year>
+            <genre>Action, Adventure, Drama</genre>
+            <director>Alik Sakharov</director>
+            <summary>The Witcher is a series following Geralt of Rivia, a monster hunter who faces political intrigue, magical creatures, and moral dilemmas in a fantasy world.</summary>
+            <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/cZ0d3rtvXPVvuiX22sP79K3Hmjz.jpg</poster>
+        </movie>
+    </popularMovies>
+
+    <topMovies>
+        <movie>
+            <title>The Watchmen</title>
+            <year>2009</year>
+            <genre>Action, Drama, Thriller</genre>
+            <director>Zack Snyder</director>
+            <summary>In an alternate history where superheroes emerged in the 1940s and 1960s, a group of vigilante heroes uncover a conspiracy that threatens the world.</summary>
+            <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/m8rWq3j73ZGhDuSCZWMMoE9ePH1.jpg</poster>
+        </movie>
+        <movie>
+            <title>His Dark Materials</title>
+            <year>2019</year>
+            <genre>Adventure, Drama, Fantasy</genre>
+            <director>Tom Hooper</director>
+            <summary>Based on Philip Pullman's trilogy, His Dark Materials follows young Lyra as she embarks on an epic journey to uncover the secrets of parallel worlds.</summary>
+            <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/g6tIKGc3f1H5QMz1dcgCwADKpZ7.jpg</poster>
+        </movie>
+        <movie>
+            <title>Carnival Row</title>
+            <year>2019</year>
+            <genre>Fantasy, Drama, Mystery</genre>
+            <director>René Echevarria</director>
+            <summary>In a Victorian fantasy world, a human detective and a refugee faerie rekindle a dangerous affair while investigating a series of gruesome murders.</summary>
+            <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/jyhxT10e2z9IDsKoIQDKhyxSQJt.jpg</poster>
+        </movie>
+        <movie>
+            <title>Good Omens</title>
+            <year>2019</year>
+            <genre>Comedy, Fantasy</genre>
+            <director>Douglas Mackinnon</director>
+            <summary>An angel and a demon form an unlikely partnership to stop Armageddon after discovering that their respective employers are unwittingly bringing about the apocalypse.</summary>
+            <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/omgCpyBV5sUT8AkeIcEwdPPgKZC.jpg</poster>
+        </movie>
+        <movie>
+            <title>Forever</title>
+            <year>2018</year>
+            <genre>Drama, Mystery</genre>
+            <director>Matt Hubbard</director>
+            <summary>A married couple in a small town faces a strange occurrence that may have a lasting impact on their lives as they are challenged by deep secrets.</summary>
+            <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/4OnnU4j2tQEOnsPnRZswW91v9vr.jpg</poster>
+        </movie>
+        <movie>
+            <title>Brynhildr in the Darkness</title>
+            <year>2014</year>
+            <genre>Action, Drama, Fantasy</genre>
+            <director>Kenichi Kasai</director>
+            <summary>Ryouta Murakami, a student who lost his friend years ago, meets a mysterious girl who might hold the secret to his lost memories.</summary>
+            <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/A8O3GlJESEjfRnV72Ju50AjxjB.jpg</poster>
+        </movie>
+        <movie>
+            <title>Deadman Wonderland</title>
+            <year>2011</year>
+            <genre>Animation, Action, Thriller</genre>
+            <director>Koichi Ohata</director>
+            <summary>Ganta Igarashi is falsely accused of a crime he didn’t commit and sent to a brutal prison where inmates are forced to participate in deadly games for survival.</summary>
+            <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/xHgs3UJx5nKi7deizomDrumPxrw.jpg</poster>
+        </movie>
+    </topMovies>
+</movies>
