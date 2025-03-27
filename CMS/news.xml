@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<newsList>
+    <news>
+        <title>Breaking News: AI Advances</title>
+        <category>Technology</category>
+        <author>John Doe</author>
+        <date>2025-03-27</date>
+        <content>AI is making breakthroughs in many fields...</content>
+        <image>assets/news-image.jpg</image>
+    </news>
+    <news>
+        <title>New Space Mission Announced</title>
+        <category>Science</category>
+        <author>Jane Smith</author>
+        <date>2025-03-26</date>
+        <content>NASA has announced a new mission to Mars...</content>
+        <image>assets/news-image.jpg</image>
+    </news>
+</newsList>

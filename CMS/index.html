@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script> <!-- JavaScript file for interactivity -->
+</head>
+<body>
+
+    <!-- Header with Logo and Navigation -->
+    <header class="navbar">
+        <div class="container">
+            <!-- Hamburger Menu Icon -->
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+            <!-- Logo -->
+            <div class="logo">
+                <img src="logo.png" alt="NPH Logo">
+            </div>
+
+            <!-- Navigation Links -->
+            <nav class="nav-links">
+                <a href="#">News</a>
+                <a href="#">Sports</a>
+                <a href="#">About</a>
+            </nav>
+
+            <!-- Search Bar -->
+            <div class="search-container">
+                <input type="text" placeholder="Search...">
+                <button class="search-button">🔍</button>
+            </div>
+
+            <!-- User Profile Icon -->
+            <div class="user-icon">👤</div>
+        </div>
+    </header>
+
+    <!-- Sub Navigation Bar -->
+    <div class="subnav">
+        <ul>
+            <li><a href="#">Top Stories</a></li>
+            <li><a href="#">Latest News</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">Program</a></li>
+            <li><a href="#">Factual</a></li>
+            <li><a href="#">Life</a></li>
+        </ul>
+    </div>
+
+    <!-- Main News Section -->
+    <section class="main-news">
+        <div class="container">
+            <div class="news-content">
+                <h1>Rodrigo Duterte</h1>
+                <p>Honeylet ni Digong hinambalos ng cellphone ang babaeng pulis</p>
+                <p class="time">2 hrs ago</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="news-image">
+                <img src="featured-news.jpg" alt="Featured News">
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News Section -->
+    <section class="latest-news">
+        <div class="container">
+            <h2>Latest News</h2>
+            <div class="news-grid">
+                <div class="news-item">
+                    <img src="news1.jpg" alt="News">
+                    <p>Hong Kong Police, bantay-sarado sa ...</p>
+                </div>
+                <div class="news-item">
+                    <img src="news2.jpg" alt="News">
+                    <p>Libu-libong kababaihan, nag-rally sa ...</p>
+                </div>
+                <div class="news-item">
+                    <img src="news3.jpg" alt="News">
+                    <p>Metro Manila, lubog sa baha dahil sa walang ...</p>
+                </div>
+            </div>
+            <a href="#" class="see-more">See More →</a>
+        </div>
+    </section>
+
+    <!-- Mobile Menu (Hidden by Default) -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#">Top Stories</a>
+        <a href="#">Latest News</a>
+        <a href="#">Articles</a>
+        <a href="#">Program</a>
+        <a href="#">Factual</a>
+        <a href="#">Life</a>
+    </div>
+
+</body>
+</html>
